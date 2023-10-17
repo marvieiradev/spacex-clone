@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+
+
+@font-face {
+    font-family: 'D-DIN-Bold';
+    src: url('../fonts/D-DIN-Bold.otf') format('opentype');
+  }
+
+  @font-face {
+    font-family: 'D-DIN';
+    src: url('../fonts/D-DIN.otf') format('opentype');
+  }
+
+@import './communElements/variable.scss';
+@import './communElements/communElements.scss';
+@import './pages/home.scss';
+@import './pages/falcon9.scss';
+@import './pages/humanSpace.scss';
