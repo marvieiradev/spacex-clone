@@ -9,7 +9,7 @@
 
     &.container03 {
         background-image: url(../../images/home/03.jpg);
-        background-position: left;
+        background-position: right;
     }
 
     &.container04 {
@@ -27,39 +27,50 @@
 
 .shortTitle {
     width: 550px;
-    margin-bottom: -25px;
-    font-family: 'D-DIN-Bold';
+    margin-bottom: 25px;
 }
 
 .mediumTitle {
     width: 650px;
-    margin-bottom: -25px;
-    font-family: 'D-DIN-Bold';
+    margin-bottom: 25px;
 }
 
-.h5{
-    font-family: 'D-DIN';
+.mediumTitle,
+.shortTitle {
+    font-family: 'D-DIN-Bold' !important;
+    font-size: 60px;
 }
 
-#button{
-    padding: $padding-button;
-    font-family: 'D-DIN'
+.h5 {
+    font-family: 'D-DIN' !important;
+    font-size: 30px;
 }
 
-@media(max-width: 750px){
-    .titlePadding{
+@media(max-width: 750px) {
+    .titlePadding {
         padding-top: 120px;
     }
 
-    .shortTitle, .mediumTitle{
+    .shortTitle,
+    .mediumTitle {
         width: auto;
         font-size: 50px;
     }
+
+    .h5{
+        font-size: 24px;
+    }
 }
 
-@media(max-width: 380px){
-    .shortTitle, .mediumTitle{
+@media(max-width: 380px) {
+
+    .shortTitle,
+    .mediumTitle {
         width: auto;
         font-size: 40px;
     }
-} 
+
+    .h5{
+        font-size: 16px;
+    }
+}
