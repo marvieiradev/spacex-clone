@@ -8,13 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
 
     <title>SpaceX - Falcon9</title>
 </head>
 
 <body>
-
     <div class="container-fluid container00 container06">
         <div class="container">
             <header class="header">
@@ -35,7 +35,7 @@
                                         id="navItem">FALCON 9</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="/humamFlight.html" id="navItem">HUMAN SPACE
+                                    <a class="nav-link active" href="/humanSpace.html" id="navItem">HUMAN SPACE
                                         FLIGHT</a>
                                 </li>
                             </ul>
@@ -44,31 +44,34 @@
                 </nav>
             </header>
         </div>
-        <div class="container text-center titleContent">
+        <div class="container text-center titleContent" data-aos="fade-up" data-aos-duration="2000">
             <p class="h1 titleFalcon9">FALCON 9</p>
             <p class="h5 subTitleFalcon">PRIMEIRA CLASSE DE FOGUETES DE ORBITA CAPAZ DE VOLTAR</p>
+            <div class="text-center">
+                <img src="./images/arrowDown.gif" alt="arrowDown" class="arrowDown">
+            </div>
         </div>
     </div>
 
     <div class="container-fluid numbers">
         <div class="row text-center">
             <div class="col-md col1">
-                <p class="h1 titleNumb">262</p>
-                <p class="subTitleNumb">LANÇAMENTOS TOTAIS</p>
+                <p class="h1 titleNumb" data-aos="flip-left" data-aos-duration="1000">262</p>
+                <p class="subTitleNumb" data-aos="flip-down" data-aos-duration="1200">LANÇAMENTOS TOTAIS</p>
             </div>
             <div class="col">
-                <p class="h1 titleNumb">220</p>
-                <p class="subTitleNumb">DESEMBARQUES TOTAIS</p>
+                <p class="h1 titleNumb" data-aos="flip-up" data-aos-duration="1200">220</p>
+                <p class="subTitleNumb" data-aos="flip-down" data-aos-duration="1400">DESEMBARQUES TOTAIS</p>
             </div>
             <div class="col-sm col3">
-                <p class="h1 titleNumb">195</p>
-                <p class="subTitleNumb">FOGUETES RECUPERADOS</p>
+                <p class="h1 titleNumb" data-aos="flip-right" data-aos-duration="1400">195</p>
+                <p class="subTitleNumb" data-aos="flip-down" data-aos-duration="1600">FOGUETES RECUPERADOS</p>
             </div>
         </div>
     </div>
 
     <div class="container-fluid container00 container07">
-        <div class="container containerFalcon9Desc">
+        <div class="container containerFalcon9Desc" data-aos="fade-right" data-aos-duration="1500">
             <p class="falcon9Desc">
                 O Falcon 9 é um foguete reutilizável de dois estágios projetado e fabricado pela SpaceX para o
                 transporte confiável e seguro de pessoas e cargas úteis para a órbita da Terra e além. Falcon 9 é o
@@ -81,7 +84,7 @@
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active container00 carousel01" data-bs-interval="3000000">
-                <div class="container" id="overViewPosition">
+                <div class="container" id="overViewPosition"  data-aos="fade-right" data-aos-duration="1000">
                     <p class="subTitleOvewView">FALCON 9</p>
                     <p class="h3 titleOverView">VISÃO GERAL</p>
                     <table class="table" id="widthTable">
@@ -115,7 +118,7 @@
                 </div>
             </div>
             <div class="carousel-item container00 carousel02" data-bs-interval="3000000">
-                <div class="container" id="overViewPosition">
+                <div class="container" id="overViewPosition"  data-aos="fade-left" data-aos-duration="1000">
                     <p class="subTitleOvewView">FALCON 9</p>
                     <p class="h3 titleOverView">PRIMEIRO ESTÁGIO</p>
                     <p>
@@ -129,7 +132,7 @@
                 </div>
             </div>
             <div class="carousel-item container00 carousel03" data-bs-interval="3000000">
-                <div class="container" id="overViewPosition">
+                <div class="container" id="overViewPosition"  data-aos="fade-left" data-aos-duration="1000">
                     <p class="subTitleOvewView">FALCON 9</p>
                     <p class="h3 titleOverView">SEGUNDO ESTÁGIO</p>
                     <p>
@@ -137,7 +140,7 @@
                         9 à órbita desejada. O motor do segundo estágio acende alguns segundos após a separação do
                         estágio e pode ser reiniciado várias vezes para colocar várias cargas em diferentes órbitas.
                     </p>
-                    <table class="table" id="widthTable">
+                    <table class="table" id="widthTable"  data-aos="fade-left" data-aos-duration="1100">
                         <tbody>
                             <tr>
                                 <td>NÚMERO DE MOTORES</td>
@@ -156,7 +159,7 @@
                 </div>
             </div>
             <div class="carousel-item container00 carousel04" data-bs-interval="2000000">
-                <div class="container" id="overViewPosition">
+                <div class="container" id="overViewPosition"  data-aos="fade-left" data-aos-duration="1000">
                     <p class="subTitleOvewView">FALCON 9</p>
                     <p class="h3 titleOverView">INTERESTADUAL</p>
                     <p>
@@ -172,7 +175,7 @@
                 </div>
             </div>
             <div class="carousel-item container00 carousel05" data-bs-interval="3000000">
-                <div class="container" id="overViewPosition">
+                <div class="container" id="overViewPosition" data-aos="fade-left" data-aos-duration="1000">
                     <p class="subTitleOvewView">FALCON 9</p>
                     <p class="h3 titleOverView">CARGA ÚTIL
                     <p>
@@ -181,7 +184,7 @@
                         órbita. A carenagem é lançada a aproximadamente 3 minutos em vôo, e a SpaceX continua a
                         recuperar as carenagens para reutilização em missões futuras.
                     </p>
-                    <table class="table" id="widthTable">
+                    <table class="table" id="widthTable" data-aos="fade-left" data-aos-duration="1100">
                         <tbody>
                             <tr>
                                 <td>ALTURA</td>
@@ -209,17 +212,17 @@
     </div>
 
     <div class="container-fluid container00 container09">
-        <div class="container titlePadding">
+        <div class="container titlePadding" data-aos="fade-up" data-aos-duration="1500">
             <p class="h5" id="launchComing">VÍDEO</p>
             <p class="h1 mediumTitle">FALCON9 EM VÔO</p>
             <button type="button" class="btn btn-outline-light mt-5" id="button">
-                SAIBA MAIS
+                VEJA MAIS
             </button>
         </div>
     </div>
 
     <div class="container-fluid container00 container08">
-        <div class="container" id="overViewPosition">
+        <div class="container" id="overViewPosition"  data-aos="fade-right" data-aos-duration="1200">
             <p class="subTitleOvewView">FALCON 9</p>
             <p class="h3 titleOverView">MERLIN
             <p>
@@ -229,13 +232,13 @@
                 e oxigênio líquido como propelentes de foguete em um ciclo de energia de gerador a gás. O motor Merlin
                 foi originalmente projetado para recuperação e reutilização.
             </p>
-            <table class="table" id="widthTable">
+            <table class="table" id="widthTable"  data-aos="fade-right" data-aos-duration="1300">
                 <tbody>
-                    <tr>
+                    <tr  data-aos="fade-right" data-aos-duration="1350">
                         <td>PROPULSOR</td>
                         <td class="text-end">LOX <span>/ RP-1</span></td>
                     </tr>
-                    <tr>
+                    <tr  data-aos="fade-right" data-aos-duration="1400">
                         <td>IMPULSO</td>
                         <td class=" text-end">845 kN <span>/ 190.000 lbf</span></td>
                     </tr>
@@ -259,14 +262,13 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
                 aria-label="Slide 6"></button>
         </div>
-        
+
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="1000000">
                 <img src="/images/falcon9/09.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                     <p class="carouselText">O Falcon 9 lança o Dragon para a Estação Espacial Internacional do Complexo
-                        de
-                        Lançamento 39A</p>
+                        de Lançamento 39A</p>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000000">
@@ -314,12 +316,12 @@
     </div>
 
     <div class="container-fluid text-center downloadDesc">
-        <p data-aos="fade-right" data-aos-duration="1200"><span>Para mais informações sobre os serviçoes entre em
+        <p data-aos="flip-down" data-aos-duration="1200"><span>Para mais informações sobre os serviçoes entre em
                 contato
                 com</span> <a href="" target="blank">sales@spacex.com</a></p>
 
 
-        <button type="button" class="btn btn-outline-light p-3" data-aos="flip-left" data-aos-duration="1000">BAIXAR
+        <button type="button" class="btn btn-outline-light p-3" data-aos="flip-up" data-aos-duration="1000">BAIXAR
             GUIA DO USUÁRIO</button>
         <button type="button" class="btn btn-outline-light p-3" data-aos="flip-up" data-aos-duration="1300">CAPACIDADES
             E
@@ -328,17 +330,21 @@
 
     <footer class="container-fluid footer">
         <span class="me-4 copy">
-            SPACEX &copy; 2023
+            SPACEX &copy;2023
         </span>
         <a href="" target="blank" class="me-4">POLÍTICA DE PRIVACIDADE</a>
-        <a href="" target="blank" class="me-4">FORNECEDORES</a>
-        <a href="" target="blank">NOTÍCIAS</a>
+        <a href="" target="blank">FORNECEDORES</a>
     </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

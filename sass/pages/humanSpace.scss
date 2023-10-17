@@ -1,0 +1,188 @@
+.container00 {
+    &.container10 {
+        background-image: url(../../images/humanSpace/01.jpg);
+    }
+
+    &.container11 {
+        background-image: url(../../images/humanSpace/02.jpg);
+    }
+
+    &.container12 {
+        background-image: url(../../images/humanSpace/03.jpg);
+    }
+
+    &.container13 {
+        background-image: url(../../images/humanSpace/04.jpg);
+    }
+
+    &.container14 {
+        background-image: url(../../images/humanSpace/05.jpg);
+    }
+
+    &.container15 {
+        background-image: url(../../images/humanSpace/00.gif);
+    }
+
+    &.container16 {
+        background-image: url(../../images/humanSpace/06.jpg);
+        display: flex;
+        align-items: center;
+        background-size: auto;
+        min-height: 20vh;
+    }
+}
+
+.bottom {
+    text-align: center;
+    margin: auto;
+    max-width: 150vh;
+    font-size: 60px;
+    font-family: 'D-DIN-Bold' !important;
+    margin-bottom: 20vh;
+}
+
+.container01Human {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .titleHuman {
+        font-size: 120px;
+        font-family: 'D-DIN-Bold' !important;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    img {
+        width: 130px;
+    }
+}
+
+
+.earthDesc {
+    background-color: black;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .textDescEarth {
+        color: $table-iten;
+        font-weight: 400;
+        font-size: 20px;
+        width: 800px;
+
+        a {
+            text-decoration: none;
+            color: $copy-color;
+            font-weight: 500;
+        }
+    }
+}
+
+.containerRightContent {
+    margin-left: 55%;
+    padding-top: 15%;
+}
+
+.titleSection {
+    font-size: 60px;
+    font-family: 'D-DIN-Bold' !important;
+}
+
+.subTitle {
+    margin-bottom: 40px;
+}
+
+.containerLeftContent {
+    margin-left: 5%;
+    padding-top: 15%;
+}
+
+@media(max-width: 768px) {
+    .container01Human {
+        .titleHuman {
+            font-size: 90px;
+        }
+
+        img {
+            width: 160px;
+        }
+    }
+
+    .containerRightContent {
+        margin-left: 15%;
+    }
+
+    .containerLeftContent {
+        margin-left: 15%;
+    }
+
+    .earthDesc {
+        .textDescEarth {
+            font-size: 18px;
+            width: auto;
+        }
+    }
+
+    .bottom {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 610px) {
+    .container01Human {
+        .titleHuman {
+            font-size: 60px;
+        }
+    }
+
+    .subTitleHuman {
+        font-size: 24px;
+    }
+
+    .containerRightContent {
+        margin-left: 5%;
+    }
+
+    .containerLeftContent {
+        margin-left: 5%;
+    }
+
+    .titleSection {
+        font-size: 50px;
+    }
+
+    .bottom {
+        font-size: 40px;
+        margin-bottom: 10vh;
+    }
+}
+
+@media(max-width: 380px) {
+    .container01Human {
+        .titleHuman {
+            font-size: 40px;
+        }
+
+        img {
+            width: 100px;
+        }
+    }
+
+    .bottom {
+        font-size: 30px;
+        margin-bottom: 5vh;
+    }
+
+    .container16{
+        background-size: cover;
+    }
+}

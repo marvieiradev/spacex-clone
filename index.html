@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
 
     <title>SpaceX - Home</title>
@@ -35,7 +36,7 @@
                                         id="navItem">FALCON 9</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="/humamFlight.html" id="navItem">HUMAN SPACE
+                                    <a class="nav-link active" href="/humanSpace.html" id="navItem">HUMAN SPACE
                                         FLIGHT</a>
                                 </li>
                             </ul>
@@ -44,20 +45,20 @@
                 </nav>
             </header>
         </div>
-        <div class="container titlePadding">
+        <div class="container titlePadding" data-aos="fade-up" data-aos-duration="2000">
             <p class="h5" id="launchComing">PRÓXIMO LANÇAMENTO</p>
             <p class="h1 mediumTitle">MISSÃO STARLINK</p>
             <button type="button" class="btn btn-outline-light mt-5" id="button">
                 SAIBA MAIS
             </button>
             <div class="container text-center">
-                <img src="./images/home/arrowDown.gif" alt="arrowDown" class="arrowDown">
+                <img src="./images/arrowDown.gif" alt="arrowDown" class="arrowDown">
             </div>
         </div>
     </div>
 
     <div class="container-fluid container00 container02">
-        <div class="container titlePadding">
+        <div class="container titlePadding" data-aos="fade-right" data-aos-duration="1500">
             <p class="h5" id="launchComing">LANÇAMENTO RECENTE</p>
             <p class="h1 shortTitle">MISSÃO PSYCHE</p>
             <button type="button" class="btn btn-outline-light mt-5" id="button">
@@ -67,7 +68,7 @@
     </div>
 
     <div class="container-fluid container00 container03">
-        <div class="container titlePadding">
+        <div class="container titlePadding" data-aos="fade-right" data-aos-duration="1500">
             <p class="h5" id="launchComing">LANÇAMENTO RECENTE</p>
             <p class="h1 shortTitle">MISSÃO STARLINK</p>
             <button type="button" class="btn btn-outline-light mt-5" id="button">
@@ -77,7 +78,7 @@
     </div>
 
     <div class="container-fluid container00 container04">
-        <div class="container titlePadding">
+        <div class="container titlePadding" data-aos="fade-right" data-aos-duration="1500">
             <p class="h5" id="launchComing">MISSÃO CONCLUÍDA</p>
             <p class="h1 mediumTitle">DRAGON E EQUIPE-6 RETORNAM À TERRA</p>
             <button type="button" class="btn btn-outline-light mt-5" id="button">
@@ -87,7 +88,7 @@
     </div>
 
     <div class="container-fluid container00 container05">
-        <div class="container titlePadding">
+        <div class="container titlePadding" data-aos="fade-down" data-aos-duration="1500">
             <p class="h1 mediumTitle">TESTE DE VÔO DA STARSHIP</p>
             <button type="button" class="btn btn-outline-light mt-5" id="button">
                 SAIBA MAIS
@@ -97,17 +98,21 @@
 
     <footer class="container-fluid footer">
         <span class="me-4 copy">
-            SPACEX&copy;2023
+            SPACEX &copy;2023
         </span>
         <a href="" target="blank" class="me-4">POLÍTICA DE PRIVACIDADE</a>
-        <a href="" target="blank" class="me-4">FORNECEDORES</a>
-        <a href="" target="blank">NOTÍCIAS</a>
+        <a href="" target="blank">FORNECEDORES</a>
     </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
