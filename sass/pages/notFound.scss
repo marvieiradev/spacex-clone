@@ -1,0 +1,19 @@
+.container00 {
+    &.container17 {
+        background-image: url(../../images/notFound/00.jpg);
+    }
+}
+
+.title{
+    padding-top: 15%;
+    margin: auto;
+    font-size: 60px;
+    font-family: 'D-DIN-Bold' !important;
+}
+
+#button-black {
+    padding: $padding-button;
+    border: 2px solid black;
+    font-weight: bold;
+    font-family: 'D-DIN' !important;
+}

@@ -366,7 +366,29 @@ tr {
   max-width: 150vh;
   font-size: 60px;
   font-family: "D-DIN-Bold" !important;
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
+}
+
+.textMedium {
+  text-align: center;
+  margin: auto;
+  font-size: 40px;
+  font-family: "D-DIN-Bold" !important;
+}
+
+.humanPadding {
+  padding-top: 200px;
+}
+
+.humanTitle {
+  font-family: "D-DIN-Bold" !important;
+  font-size: 60px;
+}
+
+.humanSubTitle {
+  font-family: "D-DIN" !important;
+  font-size: 18px;
+  max-width: 80vh;
 }
 
 .container01Human {
@@ -484,6 +506,23 @@ tr {
   .container16 {
     background-size: cover;
   }
+}
+.container00.container17 {
+  background-image: url(../../images/notFound/00.jpg);
+}
+
+.title {
+  padding-top: 15%;
+  margin: auto;
+  font-size: 60px;
+  font-family: "D-DIN-Bold" !important;
+}
+
+#button-black {
+  padding: 15px 35px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: "D-DIN" !important;
 }
 
 /*# sourceMappingURL=style.css.map */
